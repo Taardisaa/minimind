@@ -1,4 +1,55 @@
+# Existing
 model/__pycache__
-out
+out/
 website/
 docs-minimind/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Model weights & checkpoints
+checkpoints/
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+
+# Datasets
+dataset/__pycache__/
+dataset/*.jsonl
+dataset/*.json
+
+# Logs & experiment tracking
+*.log
+wandb/
+swanlab/
+runs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Misc
+*.tmp
+*.bak
